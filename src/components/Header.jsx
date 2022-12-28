@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../assets/logo.svg";
 import NavBar from "./NavBar";
+import Button from "./Button";
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
         <img src={Logo} alt="EasyBank" />
       </div>
       <NavBar />
-      <div>Button</div>
+      <Button>Request Invite</Button>
     </div>
   );
 };
