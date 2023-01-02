@@ -7,7 +7,7 @@ import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
-    <div className="relative bg-white flex justify-between md:justify-around items-center px-3 md:px-0 py-6 md:py-4 shadow-md z-10">
+    <div className="relative bg-white flex justify-between md:justify-around items-center px-3 md:px-0 py-6 md:py-4 shadow-md z-20">
       <div className="ml-4 md:ml-0">
         <img src={Logo} alt="EasyBank" />
       </div>

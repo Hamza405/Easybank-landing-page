@@ -1,5 +1,6 @@
 import Button from "../Button";
 import BG from "../../assets/bg-intro-desktop.svg";
+import Mockup from "../../assets/image-mockups.png";
 
 const Main = () => {
   return (
@@ -19,6 +20,10 @@ const Main = () => {
       <img
         className="w-2/3 object-fill absolute top-0 right-0 translate-x-[20%] translate-y-[-25%]"
         src={BG}
+      />
+      <img
+        className="w-1/2 object-fill absolute top-0 right-0 translate-x-[20%] translate-y-[-15%] z-10"
+        src={Mockup}
       />
     </div>
   );
