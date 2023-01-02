@@ -33,7 +33,7 @@ const BudgeList = [
 
 const Easybank = () => {
   return (
-    <div className="flex justify-center items-center md:items-start flex-col bg-gray-100 py-10 md:py-16 px-8 md:px-32">
+    <div className="flex justify-center items-center md:items-start flex-col bg-gray-100 py-10 md:py-16 px-8 md:px-20 lg:px-32">
       <p className="text-4xl text-center md:text-left text-gray-700">
         Why choose Easybank?
       </p>
@@ -41,14 +41,16 @@ const Easybank = () => {
         Take your financial life online, Yor easybank account will be a
         one-stop-shop for spending, saving, budgeting, investing and much more.
       </p>
-      {BudgeList.map((item) => (
-        <BudgeItem
-          key={item.id}
-          title={item.title}
-          image={item.image}
-          des={item.des}
-        />
-      ))}
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {BudgeList.map((item) => (
+          <BudgeItem
+            key={item.id}
+            title={item.title}
+            image={item.image}
+            des={item.des}
+          />
+        ))}
+      </div>
     </div>
   );
 };
