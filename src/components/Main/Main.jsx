@@ -3,7 +3,7 @@ import TextMain from "./TextMain";
 
 const Main = () => {
   return (
-    <div className="relative overflow-hidden  flex justify-between align-center w-full bg-gray-100">
+    <div className="relative  flex justify-between align-center w-full ">
       <TextMain />
       <ImagesMain />
     </div>
