@@ -1,8 +1,9 @@
 import Button from "../Button";
+import BG from "../../assets/bg-intro-desktop.svg";
 
 const Main = () => {
   return (
-    <div className="flex justify-between align-center w-full bg-gray-100">
+    <div className="relative overflow-hidden flex justify-between align-center w-full bg-gray-100">
       <div className="pl-28 pr-24 py-32 w-1/2">
         <p className="text-5xl font-light">
           Next generation
@@ -15,7 +16,10 @@ const Main = () => {
         </p>
         <Button>Request Invite</Button>
       </div>
-      <div className="py-32 w-1/2">Photo</div>
+      <img
+        className="w-2/3 object-fill absolute top-0 right-0 translate-x-[20%] translate-y-[-25%]"
+        src={BG}
+      />
     </div>
   );
 };
