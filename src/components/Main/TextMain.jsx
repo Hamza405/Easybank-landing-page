@@ -2,8 +2,8 @@ import Button from "../Button";
 
 const TextMain = () => {
   return (
-    <div className="md:block flex justify-center items-center flex-col  md:pl-28 md:pr- py-24 md:py-32 w-full md:w-1/2 mt-[60%] md:mt-0">
-      <p className="text-center md:text-start text-4xl md:text-5xl font-light">
+    <div className="md:block flex justify-center items-center flex-col md:pl-12 lg:pl-28 md:pr- py-24 md:py-28 lg:py-32 w-full md:w-1/2 mt-[60%] md:mt-0">
+      <p className="text-center md:text-start text-4xl lg:text-5xl font-light">
         Next generation
         <br /> digital banking
       </p>
