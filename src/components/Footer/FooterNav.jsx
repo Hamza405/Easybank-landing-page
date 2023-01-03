@@ -11,7 +11,7 @@ const NavList = [
 
 const FooterNav = () => {
   return (
-    <div className="flex flex-col justify-between items-center md:grid grid-cols-2 md:gap-x-10 md:gap-y-2">
+    <div className="py-4 flex flex-col justify-between items-center md:grid md:grid-cols-2 gap-y-4 md:gap-x-10">
       {NavList.map((item) => (
         <NavTextButton
           key={item}

@@ -7,13 +7,13 @@ import Main from "./components/Main/Main";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Main />
       <Easybank />
       <Articles />
       <Footer />
-    </div>
+    </>
   );
 };
 
