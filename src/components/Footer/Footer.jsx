@@ -18,10 +18,10 @@ const NavList = [
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center items-center flex-col py-4 px-8 bg-[#2d314d]">
+    <footer className="flex justify-center md:justify-around items-center flex-col md:flex-row py-4 px-8 bg-[#2d314d]">
       <div className="py-4">
         <img src={Logo} alt="Easybank" />
-        <div className="flex justify-between items-center py-8">
+        <div className="flex justify-between items-center pt-8">
           <img src={IconYoutube} />
           <img src={IconInstagram} />
           <img src={IconFacebook} />
@@ -29,7 +29,7 @@ const Footer = () => {
           <img src={IconPinterest} />
         </div>
       </div>
-      <div className="flex flex-col justify-between items-center">
+      <div className="flex flex-col justify-between items-center md:grid grid-cols-2 md:gap-x-10 md:gap-y-2">
         {NavList.map((item) => (
           <p
             key={item}
