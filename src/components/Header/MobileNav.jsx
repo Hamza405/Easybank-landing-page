@@ -16,7 +16,7 @@ const MobileNav = () => {
       </div>
       {modalIsOpen && (
         <div
-          class="fixed bottom-0 left-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-[89.5%] w-full"
+          class="fixed bottom-0 left-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-[calc(100%-4rem)] md:h-[calc(100%-5rem)] w-full"
           id="my-modal"
         >
           <div
