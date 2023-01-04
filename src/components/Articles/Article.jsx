@@ -8,7 +8,7 @@ const Article = ({ image, title, des, by }) => {
         <p className="text-gray-500 font-light text-small">
           By Hamza Al Sheikh
         </p>
-        <p className="text-xl text-gray-700 py-4 cursor-pointer hover:text-green-500">
+        <p className="text-xl text-gray-700 py-4 cursor-pointer hover:text-lime-green">
           {title}
         </p>
         <p className="text-center md:text-start text-base text-gray-500">
